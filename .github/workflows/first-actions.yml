@@ -6,7 +6,7 @@ jobs:
   build:
   # github hosted runner and Ubuntu as OS
     # runs-on: ubuntu-latest
-    # github hosted runner and Ubuntu as OS
+    # github self-hosted runner
     runs-on: self-hosted
 
     strategy:
