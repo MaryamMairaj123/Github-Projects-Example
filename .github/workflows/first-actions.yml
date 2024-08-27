@@ -4,8 +4,10 @@ on: [push]
 
 jobs:
   build:
-  # github hosted runner and ubuntu as OS
-    runs-on: ubuntu-latest
+  # github hosted runner and Ubuntu as OS
+    # runs-on: ubuntu-latest
+    # github hosted runner and Ubuntu as OS
+    runs-on: self-hosted
 
     strategy:
       matrix:
